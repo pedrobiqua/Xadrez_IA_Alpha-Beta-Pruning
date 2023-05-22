@@ -4,6 +4,8 @@ import time
 board = chess.Board()
 print(board)
 
+# Estudantes: . . . 
+
 # Pesos de cada peça em cada posição do tabuleiro
 # Esses dados foram retirados desse site: https://www.chessprogramming.org/Piece-Square_Tables
 
@@ -93,6 +95,7 @@ def avaliar_tabuleiro():
   if board.is_insufficient_material():
     return 0
 
+  
   #TODO . . . 
   wp = len(board.pieces(chess.PAWN, chess.WHITE))
   bp = len(board.pieces(chess.PAWN, chess.BLACK))
